@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add FontAwesome for the chevron-down icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR78TwIrdLuLtECcj1gGn7_DJc0e5n7arSzlJ5xwa1rdMXBaY--YtOavmBWn9PLqWks-9c&usqp=CAU" alt="Company Logo">
+        <h1>Temperature Converter</h1>
+    </header>
+    
+    <div class="container">
+        <img src="https://www.rhopointcomponents.com/wp-content/uploads/2021/01/calc_image_temperature_unit_converter.jpg" alt="Temperature Illustration">
+        <!-- Updated Dropdown -->
+        <div class="custom-select">
+            <select id="unit">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <div class="select-icon">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="number" id="temperature" placeholder="Enter temperature" inputmode="numeric">
+        </div>
+        <button id="convert">Convert</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 TempConvertor</p>
+            <p>Contact: info@email.com</p>
+            <p>Address: 123 Main Street, City</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

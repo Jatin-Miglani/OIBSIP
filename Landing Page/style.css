@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c35858;
+}
+
+
+header h1 {
+    font-size: 50px;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+header {
+    background: linear-gradient(90deg, #ffffff, #f5b8b8);
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+
+/* Services Styles */
+.services {
+    background: linear-gradient(90deg, #ffffff, #c35858);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.service-card {
+    background: linear-gradient(90deg,  #f17676,#ffe387);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    max-width: 50%;
+    max-height: 50%;
+    width:auto;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 70px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Message Button Styles */
+.message-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f5b8b8;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.message-button a{
+    text-decoration: none;
+}
+.message-button:hover {
+    background-color: #eb61b2;
+    text-decoration: none;
+}
+
+/* Map Location Styles */
+.map {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #c35858;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin-top: 10px;
+}
